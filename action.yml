@@ -1,0 +1,11 @@
+name: 'auto-accessor'
+description: 'Provide a description here'
+author: 'Debbl'
+inputs:
+  url:
+    required: true
+    description: 'Request url'
+    default: ''
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
