@@ -4,20 +4,18 @@
   "description": "",
   "main": "lib/main.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && ncc build -m -s"
   },
   "keywords": [],
   "author": "Debbl <me@aiwan.run>(https://github.com/Debbl/)",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.10.0"
+    "@actions/core": "^1.10.0",
+    "node-fetch": "^3.3.1"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^15.0.2",
-    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/node": "^18.15.11",
     "@vercel/ncc": "^0.36.1",
-    "rollup": "^3.20.2",
-    "tslib": "^2.5.0",
     "typescript": "^5.0.4"
   }
 }
