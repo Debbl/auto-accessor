@@ -2,10 +2,9 @@
   "name": "auto-accessor",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "main": "lib/main.js",
   "scripts": {
-    "build": "rollup -c --configPlugin typescript"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "Debbl <me@aiwan.run>(https://github.com/Debbl/)",
@@ -16,6 +15,7 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@rollup/plugin-typescript": "^11.1.0",
+    "@vercel/ncc": "^0.36.1",
     "rollup": "^3.20.2",
     "tslib": "^2.5.0",
     "typescript": "^5.0.4"

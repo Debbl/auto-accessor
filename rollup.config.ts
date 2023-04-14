@@ -9,5 +9,4 @@ export default defineConfig({
     file: "./dist/index.cjs",
   },
   plugins: [nodeResolve(), typescript()],
-  external: ["@actions/core"] 
 });

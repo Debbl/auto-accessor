@@ -12,6 +12,9 @@ devDependencies:
   '@rollup/plugin-typescript':
     specifier: ^11.1.0
     version: 11.1.0(rollup@3.20.2)(tslib@2.5.0)(typescript@5.0.4)
+  '@vercel/ncc':
+    specifier: ^0.36.1
+    version: 0.36.1
   rollup:
     specifier: ^3.20.2
     version: 3.20.2
@@ -96,6 +99,11 @@ packages:
 
   /@types/resolve@1.20.2:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
+    dev: true
+
+  /@vercel/ncc@0.36.1:
+    resolution: {integrity: sha512-S4cL7Taa9yb5qbv+6wLgiKVZ03Qfkc4jGRuiUQMQ8HGBD5pcNRnHeYM33zBvJE4/zJGjJJ8GScB+WmTsn9mORw==}
+    hasBin: true
     dev: true
 
   /builtin-modules@3.3.0:
