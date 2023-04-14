@@ -7,7 +7,7 @@ async function run(): Promise<void> {
     core.info(url);
     const response = await fetch(url);
     const text = await response.text();
-    core.info("-------" + text);
+    core.info("url response:" + text);
     core.setOutput("time", new Date().toTimeString());
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message);
